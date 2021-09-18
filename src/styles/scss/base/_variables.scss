@@ -1,3 +1,48 @@
 // colors
-
 $white: #fff;
+$black: #000;
+$black-light: #3a3a3a;
+
+// lato
+$l-font: 'lato';
+
+
+// media queries breakpoints
+$xxs-up: 363.00px;
+$xs-up: 575.98px;
+$sm-down: 576px;
+$sm-up: 767.98px;
+$md-down: 768px;
+$md-up: 991.98px;
+$lg-down: 992px;
+$lg-up: 1199.98px;
+$xl-down: 1200px;
+
+// iphone 5
+$extra-small-devices-iphone-5: "(max-width: #{$xxs-up})";
+$from-extra-small-devices-iphone-5: "(min-width: #{$xxs-up})";
+$extra-small-devices: "(max-width: #{$xs-up})";
+
+// variables media queries
+$small-devices: "(min-width: #{$sm-down}) and (max-width: #{$sm-up})";
+$medium-devices: "(min-width: #{$md-down}) and (max-width: #{$md-up})";
+$medium-devices-general: "(max-width: #{$md-up})";
+$large-devices: "(min-width: #{$lg-down}) and (max-width: #{$lg-up})";
+$extra-large-devices: "(min-width: #{$lg-up})";
+//from
+$from-small-device: "(min-width: #{$sm-down})";
+$from-medium-device: "(min-width: #{$md-down})";
+$from-large-device: "(min-width: #{$lg-down})";
+$from-extra-large-device: "(min-width: #{$xl-down})";
+//to
+$to-small-device: "(max-width: #{$xs-up})";
+$to-medium-device: "(max-width: #{$sm-up})";
+$to-large-device: "(max-width: #{$md-up})";
+$to-extra-large-device: "(max-width: #{$lg-up})";
+//bootstrap
+$bootstrap-small: 768px;
+$bootstrap-medium: 1024px;
+
+$h-sm: 600px;
+
+$horizontal-small-devices: "(max-height: #{$h-sm})";

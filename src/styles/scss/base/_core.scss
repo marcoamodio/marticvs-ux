@@ -4,8 +4,10 @@ body {
   --textTitle: #222;
   --textLink: blue;
   --hr: hsla(0, 0%, 0%, 0.2);
+  --font-color: $black;
 
   background-color: var(--bg);
+  color: var(--font-color);
 }
 
 body.dark {
@@ -13,7 +15,13 @@ body.dark {
 
   --bg: #000;
   --textNormal: rgba(255, 255, 255, 0.88);
-  --textTitle: white;
   --textLink: yellow;
   --hr: hsla(0, 0%, 100%, 0.2);
+  --font-color: white;
+  
+
+}
+
+a {
+  color: var(--font-color);
 }

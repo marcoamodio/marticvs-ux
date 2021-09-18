@@ -17,6 +17,16 @@ module.exports = {
       },
       __key: "images",
     },
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-dark-mode",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `lato`,
+          `lato\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
   ],
 };
