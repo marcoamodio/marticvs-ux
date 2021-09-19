@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://marcoamodio.com",
+    siteUrl: "https://marcoamodio.info",
     title: "marticvs-ux",
   },
   plugins: [
