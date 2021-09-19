@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "",
+    siteUrl: "https://marcoamodio.com",
     title: "marticvs-ux",
   },
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -27,6 +28,12 @@ module.exports = {
         ],
         display: 'swap'
       }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: 'src/images/favicon.ico',
+      },
     }
   ],
 };

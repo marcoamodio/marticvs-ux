@@ -1,8 +1,5 @@
 import React from 'react'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
-import iconSun from "../images/svg/icon-sun.svg"
-import iconMoon from "../images/svg/icon-moon.svg"
-
 export default () => (
   <ThemeToggler>
     {({ theme, toggleTheme }) => (
