@@ -1,0 +1,86 @@
+.marco {
+    margin: 25vh 0;
+    border: var(--border);
+
+    @media #{$to-medium-device} {
+        margin: 5vh 0;
+        border: var(--border);   
+    }
+
+    h2 {
+        font-family: $l-font;
+        font-weight: 900;
+        font-size: 54px;
+    }
+
+    p {
+        font-size: 21px;
+        max-width: 40ch;
+
+        a {
+            font-family: $l-font;
+            text-decoration: outline;
+
+            &:focus {
+                outline: 3px solid;
+            }
+
+            &:hover {
+                color: inherit;
+                text-decoration: outline;
+            }
+        }
+    }
+
+    mark {
+        background-color: $blue-light;
+        &.bg-green {
+            background-color: $green-light;
+        }
+    }
+
+    
+
+    
+}
+
+
+.address {
+    margin: 25vh 0;
+    border: var(--border);
+
+    @media #{$to-medium-device} {
+        margin: 5vh 0;
+        border: var(--border);   
+    }
+        
+    .find-me {
+        font-size: 18px;
+        font-family: $l-font;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .social {
+        @at-root {
+            a {
+                margin-right: 10px;
+                text-decoration: outline;
+
+                &:focus {
+                    outline: 3px solid;
+                }
+
+                &:hover {
+                    color: inherit;
+                    text-decoration: outline;
+                }
+
+                svg {
+                    width: 2em !important;
+                    height: 20px !important;
+                }
+            }
+        }
+    }
+}

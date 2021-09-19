@@ -3,7 +3,7 @@ import {Link} from "gatsby"
 import ThemeToggler from "../components/themeToggler"
 
 export default (props) => (
-  <header>
+  <header className="container">
     <h1 className="visually-hidden">Marco Amodio - Contenuto Principale - Main Content</h1>
     <div className="me">
       <Link title="Marco Amodio" aria-label="Marco Amodio" to="/">M</Link>

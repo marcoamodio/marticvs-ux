@@ -5,11 +5,7 @@ import "../styles/scss/main.scss"
 // markup
 const IndexPage = () => {
   return (
-    <main className="container">
-      <Layout>
-        ciao
-      </Layout>
-    </main>
+      <Layout />
   )
 }
 

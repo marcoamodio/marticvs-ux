@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "",
     title: "marticvs-ux",
   },
   plugins: [
@@ -22,8 +22,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `lato`,
-          `lato\:300,400,400i,700` // you can also specify font weights and styles
+          `lato,`,
+          `lato\:300,400,400i,700,800,900` // you can also specify font weights and styles
         ],
         display: 'swap'
       }
