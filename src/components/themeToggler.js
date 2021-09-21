@@ -2,7 +2,7 @@ import React from 'react'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 export default () => (
   <ThemeToggler>
-    {({ theme, toggleTheme }) => (
+    {({ toggleTheme, theme }) => (
       <div>
         <input 
           type="checkbox"
@@ -16,3 +16,4 @@ export default () => (
     )}
   </ThemeToggler>
 )
+
